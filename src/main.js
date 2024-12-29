@@ -3,7 +3,7 @@ let dataContact = [];
 
 const getData = async () => {
     try {
-        const response = await fetch("http://localhost:3000/api/contact", {
+        const response = await fetch("https://backend-eta-seven-90.vercel.app/api/contact", {
             method: "GET",
         });
 
