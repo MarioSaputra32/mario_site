@@ -1,4 +1,5 @@
-html{
+
+html {
     scrollbar-width: none;
     scroll-behavior: smooth;
 }
@@ -7,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
 }
 
@@ -18,7 +19,6 @@ nav {
     align-items: center;
     padding: 25px;
     width: 100%;
-    top: 0;
     margin-left: -30px;
     margin-right: -40px;
     z-index: 1000;
@@ -77,30 +77,44 @@ nav a.active {
 
 .contact-section p {
     font-size: 0.9em;
-    color: #666;
     margin-bottom: 15px;
 }
 
-.contact-form {
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
-    background: #fff;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .contact-form .form-group {
     display: flex;
     gap: 10px;
-    margin-bottom: 5Px;
-    max-width: 95%;
-    margin-left: 11px; 
+    margin-bottom: 10px;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 90%;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -109,7 +123,7 @@ nav a.active {
 }
 
 .contact-form textarea {
-    height: 113px;
+    height: 120px; /* Increased for consistency */
     resize: none;
 }
 
@@ -129,6 +143,7 @@ nav a.active {
     background-color: #1d1dc9;
 }
 
+/* Footer Styling */
 footer {
     width: 100%;
     text-align: center;
