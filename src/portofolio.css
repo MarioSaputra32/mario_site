@@ -92,22 +92,22 @@ nav a.active {
     background-color: #2a2adf;
     color: #fff;
     margin: 0;
-    padding: 18px;
+    padding: 10px;
     font-size: 1.4em;
     text-align: center;
 }
 
 .project-card p {
-    padding: 18px;
+    padding: 10px;
     color: #444;
     font-size: 1.1em; 
     text-align: justify;
 }
 
 .project-card .description {
-    padding: 18px;
+    padding: 8px;
     color: #333;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.6;
     text-align: justify;
 }
