@@ -71,13 +71,13 @@ nav a.active {
 
 .contact-section h2 {
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #2a2adf;
 }
 
 .contact-section p {
     font-size: 0.9em;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .contact-container {
@@ -102,7 +102,7 @@ nav a.active {
     flex: 1;
     max-width: 900px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 12px;
     border-radius: 10px;
 }
 
@@ -123,12 +123,12 @@ nav a.active {
 }
 
 .contact-form textarea {
-    height: 120px; /* Increased for consistency */
+    height: 120px;
     resize: none;
 }
 
 .contact-form button {
-    width: 100%;
+    width: 103%;
     padding: 12px;
     background-color: #2a2adf;
     color: #fff;
@@ -145,7 +145,6 @@ nav a.active {
 
 /* Footer Styling */
 footer {
-    width: 100%;
     text-align: center;
     padding: 18px;
     background-color: #2a2adf;

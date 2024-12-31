@@ -86,6 +86,7 @@ nav a.active {
     font-size: 1.2em;
     margin: 15px 0;
     line-height: 1.8;
+    text-align: justify;
 }
 
 .hero-text .social-icons {
